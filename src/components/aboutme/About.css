@@ -1,0 +1,45 @@
+.aboutme__container {
+  padding-top: 7rem;
+  height: 100%;
+
+
+}
+.bg__about {
+  background-image: url(../../assets/background-4.png);
+  background-size: 12500px 1000px;
+}
+.title_about {
+  text-align: center;
+  background: #59cf5d;
+  background: radial-gradient(#59cf5d 13%, #cf1512 54%, #ffef0f 100%);
+  -webkit-background-clip: text;
+  font-size:large;
+  -webkit-text-fill-color: transparent;
+  
+}
+.text_about {
+  /* background-color: blue; */
+  margin: auto;
+  padding-top: 5rem;
+  max-width: 460px;
+  height: auto;
+  text-align: center;
+  font-size:medium;
+  text-shadow: 2px 2px rgb(18, 31, 26);
+  
+}
+
+@media screen and (max-width: 1024px) {
+  .text_about {
+    min-width: 300px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .aboutme__container {
+    text-align: center;
+  }
+  .text_about {
+    max-width: 250px;
+  }
+  
+}

@@ -1,0 +1,23 @@
+.time{
+  background-image: url(../../assets/background-5.png);
+  background-size: 2000px 1000px;
+}
+
+.edu__info {
+  padding-top: 7rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+.container__education {
+  position: relative;
+}
+.vertical-timeline-element-title,
+.vertical-timeline-element-subtitle,
+.vertical-timeline-element-description {
+  color: black;
+}
+@media screen and (max-width: 600px) {
+  .time{
+    height: 175vh;
+  }
+}

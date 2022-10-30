@@ -1,0 +1,17 @@
+.bg__skills {
+  background-image: url(../../assets/background-3.png);
+  background-size: 2000px 1000px;
+}
+.skills__container {
+  padding-top: 7rem;
+  height: 100vh;
+  position: relative;
+}
+.title_skills {
+  text-align: center;
+  background: #cf59bf;
+  background: linear-gradient( #cf59bf 7%, #61ff8b 43%, #cfcf5f 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-bottom:1rem;
+}

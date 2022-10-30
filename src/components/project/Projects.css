@@ -1,0 +1,13 @@
+.projectss{
+  background-image: url(../../assets/background-7.png);
+  background-size: 2000px 1375px;
+  height: 150vh;
+}
+.project__info{
+  padding-top: 7rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+.projects__container{
+  position: relative;
+}
