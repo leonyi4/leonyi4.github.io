@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c1129f31.css",
-    "main.js": "/static/js/main.57e88f6f.js",
+    "main.js": "/static/js/main.7996d628.js",
     "static/media/cool-cat.png": "/static/media/cool-cat.2bdaaddcca7775d0e5dc.png",
     "static/media/background-4.png": "/static/media/background-4.9e1678de843dbbfe8f5b.png",
     "static/media/background-1.png": "/static/media/background-1.5afe191332913a9c9757.png",
@@ -9,7 +9,7 @@
     "static/media/background-5.png": "/static/media/background-5.3187e6ced297ecaa5d16.png",
     "static/media/background-3.png": "/static/media/background-3.b0db8c1768366266b208.png",
     "static/media/background-7.png": "/static/media/background-7.db6b08f828c2ebb6bfc2.png",
-    "static/media/NyiNyeinAungResume30102022.pdf": "/static/media/NyiNyeinAungResume30102022.09493f649d18ccf9eb7a.pdf",
+    "static/media/Nyi Nyein Aung Resume.pdf": "/static/media/Nyi Nyein Aung Resume.3f5cd661c7cc8c10bd2f.pdf",
     "static/media/node.png": "/static/media/node.c2e22c634a7336cbe298.png",
     "static/media/order_system.png": "/static/media/order_system.7e80da25027f156eb2fc.png",
     "static/media/javascript.png": "/static/media/javascript.7f8751632b42a9932c15.png",
@@ -22,10 +22,10 @@
     "static/media/react.png": "/static/media/react.ef20e673b9282f8f30fd.png",
     "index.html": "/index.html",
     "main.c1129f31.css.map": "/static/css/main.c1129f31.css.map",
-    "main.57e88f6f.js.map": "/static/js/main.57e88f6f.js.map"
+    "main.7996d628.js.map": "/static/js/main.7996d628.js.map"
   },
   "entrypoints": [
     "static/css/main.c1129f31.css",
-    "static/js/main.57e88f6f.js"
+    "static/js/main.7996d628.js"
   ]
 }
