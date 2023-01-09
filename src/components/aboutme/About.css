@@ -29,11 +29,7 @@
   
 }
 
-@media screen and (max-width: 1024px) {
-  .text_about {
-    min-width: 300px;
-  }
-}
+
 @media screen and (max-width: 600px) {
   .aboutme__container {
     text-align: center;
