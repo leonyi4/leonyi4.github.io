@@ -3,13 +3,13 @@ import {
   CardContent,
   CardMedia,
   Grid,
-  Typography,
+  Typography
 } from "@mui/material";
 
 import React from "react";
-import "./Projects.css";
-import orderSystemPic from "../../assets/order_system.png";
 import movieAPI from "../../assets/movieAPI.png";
+import orderSystemPic from "../../assets/order_system.png";
+import "./Projects.css";
 
 const Projects = () => {
 
