@@ -67,7 +67,6 @@ const Home = () => {
             variant="h1"
             component="h1"
             sx={{
-              background: "#cf59bf",
               background:
                 "linear-gradient( #cf59bf 7%, #61ff8b 43%, #cfcf5f 100%)",
               WebkitBackgroundClip: "text",
