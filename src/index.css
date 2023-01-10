@@ -52,7 +52,6 @@ h5 {
 
 section {
   height: 100vh;
-  margin-top: 8rem;
 }
 
 section > h2,
@@ -110,9 +109,6 @@ img {
 @media screen and (max-width: 1024px) {
   .container {
     width: var(--container-width-md);
-  }
-  section {
-    margin-top: 6rem;
   }
 }
 /*small device*/

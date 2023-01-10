@@ -27,3 +27,13 @@
     height: 205vh;
   }
 }
+@media only screen and (max-height: 799px) {
+  .bg__skills {
+    height: 225vh;
+  }
+}
+@media only screen and (max-height: 700px) {
+  .bg__skills {
+    height: 245vh;
+  }
+}
