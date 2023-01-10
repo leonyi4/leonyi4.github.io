@@ -11,6 +11,9 @@ const About = () => {
       fontSize: "12px",
       width: "300px",
     },
+    "@media (max-width:900px)": {
+      fontSize: "14px",
+    },
   };
 
   return (
@@ -33,14 +36,14 @@ const About = () => {
               fontFamily: ["Roboto Mono", "monospace"],
             }}
           >
-            Hello. I am Nyi Nyein Aung but you can also Call me Leo. I am 18
+            Hello! I am Nyi Nyein Aung but you can also Call me Leo. I am 18
             years and am currently a 3rd-year university student studying IT at
             Payap International College. I have always enjoyed learning
             Javascript and making random games in my Computer Science class back
             in high school. Then a year after I joined the university, I started
             learning web development.
             <br />
-            <br />I enjoy playing games during my free time and I also love
+            <br />I enjoy playing games during my free time and I love
             problem-solving. I usually would self-study frontend after I get
             home from university in the evening and play games with my friends
             at night. I am also very interested in technology in general and try
