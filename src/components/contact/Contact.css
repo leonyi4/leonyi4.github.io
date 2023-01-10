@@ -1,9 +1,9 @@
-.contactss{
+.contactss {
   background-image: url(../../assets/background-6.png);
   background-size: 2000px 1500px;
-  height: 150vh;
+  height: 100vh;
 }
-.top{
+.top {
   text-align: center;
   overflow: hidden;
   padding-top: 7rem;
@@ -62,12 +62,11 @@ textarea {
   resize: none;
   color: white;
 }
-::placeholder{
-    color:black;
+::placeholder {
+  color: black;
 }
 
 @media screen and (max-width: 1024px) {
-    
   .contact__container {
     grid-template-columns: 1fr;
     gap: 2rem;

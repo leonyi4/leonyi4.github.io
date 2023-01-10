@@ -1,21 +1,17 @@
 import React from "react";
-import Home from "./components/about me/Home";
 import About from "./components/aboutme/About";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
+import Home from "./components/home/Home";
 import Nav from "./components/navbar/Nav";
 import Projects from "./components/project/Projects";
 import Skills from "./components/skills/Skills";
 import Timeline from "./components/timeline/Timeline";
 
-
-
 const App = () => {
-    
-
   return (
     <div>
-      <Home/>
+      <Home />
       <Nav />
       <About />
       <Skills />
