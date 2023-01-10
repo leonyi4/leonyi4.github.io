@@ -7,7 +7,12 @@ const Title = () => {
       <Typography
         component="h2"
         variant="h2"
-        sx={{ marginTop: "10px", marginBottom: "10px" }}
+        sx={{
+          marginTop: "10px",
+          marginBottom: "10px",
+          fontFamily: ["Roboto Mono, monospace"],
+          fontWeight: 500,
+        }}
       >
         About me
       </Typography>

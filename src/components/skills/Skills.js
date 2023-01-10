@@ -1,33 +1,48 @@
+import { Card, CardContent, CardMedia, Grid, Typography } from "@mui/material";
 import React from "react";
+import { skills } from "../../data";
+import Skill from "./Skill";
 import "./Skills.css";
-import {
-  Card,
-  CardContent,
-  CardMedia,
-  Grid,
-  Typography,
-} from "@mui/material";
-import reactPic from "../../assets/react.png";
-import javascriptPic from "../../assets/javascript.png";
-import materialUIPic from "../../assets/materialUI.png";
-import javaPic from "../../assets/java.jpg";
-import pythonPic from "../../assets/python.png";
-import htmlPic from "../../assets/html.png";
-import vscPic from "../../assets/vsc.png";
-import netbeansPic from "../../assets/net_beans.png";
-import javafxPic from "../../assets/javafx.png";
-import cssPic from "../../assets/css.png";
-import gitHubPic from "../../assets/github.png";
-import nodePic from "../../assets/node.png";
 
 const Skills = () => {
   return (
     <section id="skills" className="bg__skills">
       <div className="container skills__container">
-        <h1 className="title_skills">My skills</h1>
+        <Typography
+          variant="h2"
+          sx={{
+            fontFamily: ["Roboto Mono, monospace"],
+            fontWeight: 500,
+            background: "#cf59bf",
+            background:
+              "linear-gradient( #cf59bf 7%, #61ff8b 43%, #cfcf5f 100%)",
+            WebkitBackgroundClip: "text",
+            WebkitTextFillColor: "transparent",
+            paddingBottom: "1rem",
+          }}
+        >
+          My Skills
+        </Typography>
         <Grid container spacing={2}>
-          <Grid item xs={3} md={2.4}>
-            <Card sx={{ maxWidth: 345,maxHeight:225 }}>
+          {skills.map((project, index) => (
+            <Skill
+              key={project.name + index}
+              pic={project.pic}
+              alt={project.alt}
+              name={project.name}
+            />
+          ))}
+        </Grid>
+      </div>
+    </section>
+  );
+};
+
+export default Skills;
+
+{
+  /* <Grid item xs={3} md={2.4}>
+            <Card sx={{ maxWidth: 345, maxHeight: 225 }}>
               <CardMedia
                 component="img"
                 height="165"
@@ -42,7 +57,7 @@ const Skills = () => {
             </Card>
           </Grid>
           <Grid item xs={3} md={2.4}>
-            <Card sx={{ maxWidth: 345,maxHeight:225 }}>
+            <Card sx={{ maxWidth: 345, maxHeight: 225 }}>
               <CardMedia
                 component="img"
                 height="165"
@@ -72,7 +87,7 @@ const Skills = () => {
             </Card>
           </Grid>
           <Grid item xs={3} md={2.4}>
-            <Card sx={{ maxWidth: 345,maxHeight:225 }}>
+            <Card sx={{ maxWidth: 345, maxHeight: 225 }}>
               <CardMedia
                 component="img"
                 height="165"
@@ -87,7 +102,7 @@ const Skills = () => {
             </Card>
           </Grid>
           <Grid item xs={3} md={2.4}>
-            <Card sx={{ maxWidth: 345,maxHeight:225 }}>
+            <Card sx={{ maxWidth: 345, maxHeight: 225 }}>
               <CardMedia
                 component="img"
                 height="165"
@@ -102,7 +117,7 @@ const Skills = () => {
             </Card>
           </Grid>
           <Grid item xs={3} md={2.4}>
-            <Card sx={{ maxWidth: 345,maxHeight:225 }}>
+            <Card sx={{ maxWidth: 345, maxHeight: 225 }}>
               <CardMedia
                 component="img"
                 height="165"
@@ -117,7 +132,7 @@ const Skills = () => {
             </Card>
           </Grid>
           <Grid item xs={3} md={2.4}>
-            <Card sx={{ maxWidth: 345,maxHeight:225 }}>
+            <Card sx={{ maxWidth: 345, maxHeight: 225 }}>
               <CardMedia
                 component="img"
                 height="165"
@@ -132,7 +147,7 @@ const Skills = () => {
             </Card>
           </Grid>
           <Grid item xs={3} md={2.4}>
-            <Card sx={{ maxWidth: 345,maxHeight:225 }}>
+            <Card sx={{ maxWidth: 345, maxHeight: 225 }}>
               <CardMedia
                 component="img"
                 height="165"
@@ -157,7 +172,7 @@ const Skills = () => {
             </Card>
           </Grid>
           <Grid item xs={3} md={2.4}>
-            <Card sx={{ maxWidth: 345,maxHeight:225 }}>
+            <Card sx={{ maxWidth: 345, maxHeight: 225 }}>
               <CardMedia
                 component="img"
                 height="165"
@@ -172,7 +187,7 @@ const Skills = () => {
             </Card>
           </Grid>
           <Grid item xs={3} md={2.4}>
-            <Card sx={{ maxWidth: 345,maxHeight:225 }}>
+            <Card sx={{ maxWidth: 345, maxHeight: 225 }}>
               <CardMedia component="img" height="165" src={vscPic} alt="vsc" />
               <CardContent>
                 <Typography varient="h5" component="div">
@@ -195,11 +210,5 @@ const Skills = () => {
                 </Typography>
               </CardContent>
             </Card>
-          </Grid>
-        </Grid>
-      </div>
-    </section>
-  );
-};
-
-export default Skills;
+          </Grid> */
+}

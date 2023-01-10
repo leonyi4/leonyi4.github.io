@@ -26,7 +26,6 @@ const Desc = () => {
           textAlign: "center",
           textShadow: "2px 2px 2px black",
           lineHeight: "24px",
-          fontFamily: ["Roboto Mono", "monospace"],
         }}
       >
         Hello! I am Nyi Nyein Aung but you can also Call me Leo. I am 18 years
