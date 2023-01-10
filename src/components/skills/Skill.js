@@ -3,17 +3,17 @@ import React from "react";
 
 const Skill = (props) => {
   return (
-    <Grid item>
+    <Grid item xs={6} sm={4} md={3}>
       <Card>
         <CardMedia
           component="img"
-          height="165"
+          height="155"
           src={props.pic}
           alt={props.alt}
         />
         <CardContent>
           <Typography
-            variant="h4"
+            variant="subtitle1"
             sx={{ fontFamily: ["Roboto Mono, monospace"] }}
           >
             {props.name}

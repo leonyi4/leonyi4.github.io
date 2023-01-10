@@ -9,7 +9,7 @@ import netbeansPic from "../assets/net_beans.png";
 import nodePic from "../assets/node.png";
 import pythonPic from "../assets/python.png";
 import reactPic from "../assets/react.png";
-import vscPic from "../assets/vsc.png";
+import vscPic from "../assets/vsc.jpg";
 
 export const skills = [
   {
@@ -59,7 +59,7 @@ export const skills = [
     alt: "materialUI",
   },
   {
-    name: "Visual Studio Code",
+    name: "VSCode",
     pic: vscPic,
     alt: "vsc",
   },
