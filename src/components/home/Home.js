@@ -1,11 +1,17 @@
 import { createTheme, ThemeProvider, Typography } from "@mui/material";
 import React from "react";
+import { useInView } from "react-intersection-observer";
 import cat from "../../assets/cool-cat.png";
 import ContactMe from "./Contactme";
 import "./Home.css";
 
 const Home = () => {
   const theme = createTheme({});
+
+  const { ref, inView } = useInView({
+    triggerOnce: true,
+    threshold: 0,
+  });
 
   theme.typography.h2 = {
     fontSize: "1.2rem",
@@ -41,10 +47,12 @@ const Home = () => {
     },
   };
 
+  const cName = inView ? "fade-in" : "";
+
   return (
-    <header>
+    <header className={cName}>
       <ThemeProvider theme={theme}>
-        <div className="container header__container">
+        <div className="container header__container" ref={ref}>
           <Typography
             variant="h2"
             component="h2"
