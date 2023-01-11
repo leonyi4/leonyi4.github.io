@@ -41,7 +41,18 @@ header {
   overflow: hidden;
 }
 
-@media screen and (max-width: 1024px) {
+@media only screen and (orientation: landscape) and (max-device-height: 350px) {
+  header {
+    height: 300vh;
+  }
+}
+@media only screen and (orientation: landscape) and (min-device-height: 351px) and (max-device-height: 600px) {
+  header {
+    height: 200vh;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (orientation: portrait) {
   header {
     height: 99vh;
   }
@@ -60,7 +71,7 @@ header {
     padding-right: 30px;
   }
 }
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) and (orientation: portrait) {
   header {
     height: 100vh;
   }

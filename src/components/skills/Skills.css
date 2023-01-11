@@ -2,6 +2,7 @@
   background-image: url(../../assets/background-3.png);
   background-size: 2000px 1000px;
   height: 115vh;
+  margin-top: 1;
 }
 .skills__container {
   padding-top: 7rem;
@@ -27,12 +28,12 @@
     height: 204vh;
   }
 }
-@media only screen and (max-width: 399px) {
+@media only screen and (max-width: 499px) {
   .bg__skills {
     height: 224vh;
   }
 }
-@media only screen and (max-height: 799px) {
+@media only screen and (max-device-height: 799px) {
   .bg__skills {
     height: 224vh;
   }
@@ -40,5 +41,31 @@
 @media only screen and (max-height: 700px) {
   .bg__skills {
     height: 254vh;
+  }
+}
+
+@media only screen and (orientation: landscape) and (max-device-height: 390px) and (max-device-height: 301px) {
+  .bg__skills {
+    height: 300vh;
+  }
+}
+@media only screen and (orientation: landscape) and (max-device-height: 300px) {
+  .bg__skills {
+    height: 350vh;
+  }
+}
+@media only screen and (orientation: landscape) and (max-device-height: 390px) and (max-device-width: 900px) and (min-device-width: 601px) {
+  .bg__skills {
+    height: 450vh;
+  }
+}
+@media only screen and (orientation: landscape) and (max-device-height: 390px) and (max-device-width: 600px) {
+  .bg__skills {
+    height: 650vh;
+  }
+}
+@media only screen and (orientation: landscape) and (min-device-height: 590px) and (max-device-height: 800px) and (min-width-device: 0px) and (max-device-width: 600px) {
+  .bg__about {
+    height: 200vh;
   }
 }

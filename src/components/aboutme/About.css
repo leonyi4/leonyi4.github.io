@@ -1,6 +1,7 @@
 .aboutme__container {
   padding-top: 7rem;
   height: 100%;
+  margin-top: 1;
 }
 .bg__about {
   background-image: url(../../assets/background-4.png);
@@ -15,11 +16,39 @@
   -webkit-text-fill-color: transparent;
 }
 
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) and(orientation: portrait) {
   .aboutme__container {
     text-align: center;
   }
   .text_about {
     max-width: 250px;
+  }
+}
+
+@media only screen and (orientation: landscape) and (max-device-width: 600px) and (min-device-width: 0px) and (max-device-height: 300px) {
+  .bg__about {
+    height: 350vh;
+  }
+}
+
+@media only screen and (orientation: landscape) and (max-device-height: 300px) and (min-device-width: 601px) and (max-device-height: 900px) {
+  .bg__about {
+    height: 240vh;
+  }
+}
+@media only screen and (orientation: landscape) and (max-device-height: 300px) and (min-device-width: 901px) {
+  .bg__about {
+    height: 300vh;
+  }
+}
+
+@media only screen and (orientation: landscape) and (min-device-height: 301px) and (max-device-height: 600px) and (min-device-width: 601px) {
+  .bg__about {
+    height: 200vh;
+  }
+}
+@media only screen and (orientation: landscape) and (min-device-height: 0px) and (max-device-height: 650px) and (max-device-width: 620px) {
+  .bg__about {
+    height: 200vh;
   }
 }

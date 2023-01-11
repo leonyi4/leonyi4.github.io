@@ -2,7 +2,6 @@
   background-image: url(../../assets/background-5.png);
   background-size: 2000px 1750px;
   height: 135vh;
-  margin-top: 0;
 }
 
 .edu__info {
@@ -29,6 +28,6 @@
 
 @media only screen and (max-height: 700px) {
   .time {
-    height: 214vh;
+    height: 218vh;
   }
 }

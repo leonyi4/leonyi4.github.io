@@ -2,6 +2,7 @@
   background-image: url(../../assets/background-7.png);
   background-size: 2000px 1375px;
   height: 200vh;
+  margin-top: 1;
 }
 .project__info {
   padding-top: 8rem;

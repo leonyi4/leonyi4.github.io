@@ -5,7 +5,7 @@ const Project = (props) => {
   return (
     <Card
       sx={{
-        width: "800px",
+        width: "100%",
         textAlign: "center",
         background: "transparent",
         margin: "auto",
@@ -19,11 +19,14 @@ const Project = (props) => {
       <CardMedia
         component="img"
         src={props.project.pic}
-        sx={{ objectFit: "contain" }}
+        sx={{ objectFit: "contain", padding: 2 }}
       />
       <CardContent
         sx={{
-          margin: 2,
+          marginBottom: 2,
+          marginLeft: 2,
+          marginRight: 2,
+          marginTop: 1,
           padding: 1,
           backgroundColor: "rgba(247, 201, 115, 1)",
           borderRadius: 1,

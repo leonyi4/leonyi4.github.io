@@ -2,6 +2,7 @@
   background-image: url(../../assets/background-6.png);
   background-size: 2000px 1500px;
   height: 100vh;
+  margin-top: 1;
 }
 .top {
   text-align: center;
