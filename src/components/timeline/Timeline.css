@@ -1,7 +1,7 @@
 .time {
   background-image: url(../../assets/background-5.png);
   background-size: 2000px 1750px;
-  height: 137vh;
+  height: 135vh;
   margin-top: 0;
 }
 
@@ -17,18 +17,18 @@
 
 @media screen and (max-width: 600px) {
   .time {
-    height: 175vh;
+    height: 174vh;
   }
 }
 
 @media only screen and (max-height: 799px) {
   .time {
-    height: 195vh;
+    height: 194vh;
   }
 }
 
 @media only screen and (max-height: 700px) {
   .time {
-    height: 215vh;
+    height: 214vh;
   }
 }
