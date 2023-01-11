@@ -1,13 +1,28 @@
-.projectss{
+.projectss {
   background-image: url(../../assets/background-7.png);
   background-size: 2000px 1375px;
-  height: 150vh;
+  height: 200vh;
 }
-.project__info{
-  padding-top: 7rem;
+.project__info {
+  padding-top: 8rem;
   margin-bottom: 3rem;
   text-align: center;
 }
-.projects__container{
+.projects__container {
   position: relative;
+}
+
+.tech {
+  background-color: rgba(245, 222, 179, 0.1);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: start;
+}
+.logo {
+  width: 70px;
+  max-height: 65px;
+  object-fit: contain;
+  margin-right: 5px;
+  margin-top: 5px;
 }
