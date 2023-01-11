@@ -7,7 +7,7 @@ import "./Skills.css";
 
 const Skills = () => {
   const { ref, inView } = useInView({
-    threshold: 0.1,
+    threshold: 0.05,
   });
 
   const cName = inView ? "fade-in" : "";

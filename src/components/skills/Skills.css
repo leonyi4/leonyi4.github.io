@@ -19,12 +19,17 @@
 
 @media only screen and (max-width: 899px) {
   .bg__skills {
-    height: 145vh;
+    height: 144vh;
   }
 }
 @media only screen and (max-width: 599px) {
   .bg__skills {
     height: 205vh;
+  }
+}
+@media only screen and (max-width: 399px) {
+  .bg__skills {
+    height: 225vh;
   }
 }
 @media only screen and (max-height: 799px) {
@@ -34,6 +39,6 @@
 }
 @media only screen and (max-height: 700px) {
   .bg__skills {
-    height: 245vh;
+    height: 255vh;
   }
 }

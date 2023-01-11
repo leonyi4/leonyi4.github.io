@@ -4,74 +4,88 @@ import HomeIcon from "@mui/icons-material/Home";
 import LocalLibraryIcon from "@mui/icons-material/LocalLibrary";
 import SchoolIcon from "@mui/icons-material/School";
 import StarIcon from "@mui/icons-material/Star";
-import React, { useState } from "react";
+import React, { useRef } from "react";
 import { useInView } from "react-intersection-observer";
 import "./Nav.css";
+
 const Nav = () => {
-  const [activeNav, setActiveNav] = useState("#");
   const { ref, inView } = useInView({
     triggerOnce: true,
     threshold: 0,
   });
 
+  const homeRef = useRef();
+  const aboutRef = useRef();
+  const skillsRef = useRef();
+  const educationRef = useRef();
+  const projectsRef = useRef();
+  const contactRef = useRef();
+
   const cName = inView ? "fade-in" : "";
+
+  const sections = document.querySelectorAll("section");
+  window.onscroll = () => {
+    var current = "";
+
+    sections.forEach((section) => {
+      const sectionTop = section.offsetTop;
+      if (window.pageYOffset >= sectionTop) {
+        current = section.getAttribute("id");
+      }
+    });
+
+    if (current === "") {
+      homeRef.current.className = "active";
+    } else {
+      homeRef.current.className = "";
+    }
+    if (current === "about") {
+      aboutRef.current.className = "active";
+    } else {
+      aboutRef.current.className = "";
+    }
+    if (current === "skills") {
+      skillsRef.current.className = "active";
+    } else {
+      skillsRef.current.className = "";
+    }
+    if (current === "education") {
+      educationRef.current.className = "active";
+    } else {
+      educationRef.current.className = "";
+    }
+    if (current === "projects") {
+      projectsRef.current.className = "active";
+    } else {
+      projectsRef.current.className = "";
+    }
+    if (current === "contact") {
+      contactRef.current.className = "active";
+    } else {
+      contactRef.current.className = "";
+    }
+  };
 
   return (
     <nav className={cName} ref={ref}>
-      <a
-        href="#"
-        onClick={() => {
-          setActiveNav("#");
-        }}
-        className={activeNav === "#" ? "active" : ""}
-      >
+      <a ref={homeRef} href="#" className="active">
         <HomeIcon />
       </a>
-      <a
-        href="#about"
-        onClick={() => {
-          setActiveNav("#about");
-        }}
-        className={activeNav === "#about" ? "active" : ""}
-      >
+      <a ref={aboutRef} href="#about" className="">
         <AccountCircleIcon />
       </a>
-      <a
-        href="#skills"
-        onClick={() => {
-          setActiveNav("#skills");
-        }}
-        className={activeNav === "#skills" ? "active" : ""}
-      >
+      <a ref={skillsRef} href="#skills" className="">
         <StarIcon />
       </a>
 
-      <a
-        href="#education"
-        onClick={() => {
-          setActiveNav("#education");
-        }}
-        className={activeNav === "#education" ? "active" : ""}
-      >
+      <a ref={educationRef} href="#education" className="">
         <SchoolIcon />
       </a>
-      <a
-        href="#projects"
-        onClick={() => {
-          setActiveNav("#projects");
-        }}
-        className={activeNav === "#projects" ? "active" : ""}
-      >
+      <a ref={projectsRef} href="#projects" className="">
         <LocalLibraryIcon />
       </a>
 
-      <a
-        href="#contact"
-        onClick={() => {
-          setActiveNav("#contact");
-        }}
-        className={activeNav === "#contact" ? "active" : ""}
-      >
+      <a ref={contactRef} href="#contact" className="">
         <ContactsIcon />
       </a>
     </nav>

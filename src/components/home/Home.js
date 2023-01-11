@@ -50,7 +50,7 @@ const Home = () => {
   const cName = inView ? "fade-in" : "";
 
   return (
-    <header className={cName}>
+    <header id="home" className={cName}>
       <ThemeProvider theme={theme}>
         <div className="container header__container" ref={ref}>
           <Typography
