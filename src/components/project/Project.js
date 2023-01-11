@@ -5,13 +5,15 @@ const Project = (props) => {
   return (
     <Card
       sx={{
-        maxWidth: "600px",
+        width: "800px",
+        textAlign: "center",
         background: "transparent",
         margin: "auto",
         borderRadius: "5px",
         border: 2,
         borderColor: "white",
         padding: "2px",
+        marginBottom: "15px",
       }}
     >
       <CardMedia
