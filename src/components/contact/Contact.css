@@ -1,7 +1,7 @@
 .contactss {
   background-image: url(../../assets/background-6.png);
   background-size: 2000px 1500px;
-  height: 100vh;
+  height: fit-content;
   margin-top: 1;
 }
 .top {
@@ -77,5 +77,11 @@ textarea {
 @media screen and (max-width: 600px) {
   .contact__container {
     width: var(--container-width-sm);
+  }
+}
+
+@media screen and (max-width: 1024px) and (max-height: 730px) {
+  .contactss {
+    height: fit-content;
   }
 }

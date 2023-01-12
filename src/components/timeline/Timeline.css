@@ -1,7 +1,7 @@
 .time {
   background-image: url(../../assets/background-5.png);
   background-size: 2000px 1750px;
-  height: 135vh;
+  height: fit-content;
 }
 
 .edu__info {
@@ -9,25 +9,8 @@
   margin-bottom: 3rem;
   text-align: center;
 }
-.container__education {
-  position: relative;
-  width: 100%;
-}
-
 @media screen and (max-width: 600px) {
   .time {
     height: 174vh;
-  }
-}
-
-@media only screen and (max-height: 799px) {
-  .time {
-    height: 194vh;
-  }
-}
-
-@media only screen and (max-height: 700px) {
-  .time {
-    height: 218vh;
   }
 }
