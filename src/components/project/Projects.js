@@ -1,18 +1,23 @@
 import { Container, Typography } from "@mui/material";
-
 import React from "react";
+import { useInView } from "react-intersection-observer";
 import { projects } from "../../data";
 import Project from "./Project";
 import "./Projects.css";
 
 const Projects = () => {
+  const { ref, inView } = useInView({
+    threshold: 0,
+  });
+  const title = inView ? "project__info fade-in" : "project__info";
   return (
     <section id="projects" className="projectss">
       <div className="projects_container">
         <Typography
+          ref={ref}
           component="div"
           variant="h2"
-          className="project__info"
+          className={title}
           sx={{
             margin: "auto",
             fontFamily: ["Roboto Mono, monospace"],

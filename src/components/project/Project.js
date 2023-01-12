@@ -6,10 +6,18 @@ import {
   Typography,
 } from "@mui/material";
 import React from "react";
+import { useInView } from "react-intersection-observer";
 
 const Project = (props) => {
+  const { ref, inView } = useInView({
+    threshold: 0,
+  });
+
+  const ani = inView ? "fade-in" : "";
   return (
     <Card
+      className={ani}
+      ref={ref}
       sx={{
         width: "700px",
         "@media (max-width:1024px)": {

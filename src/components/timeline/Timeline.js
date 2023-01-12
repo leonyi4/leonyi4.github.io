@@ -30,12 +30,12 @@ const Education = () => {
           </Typography>
         </div>
 
-        <VerticalTimeline lineColor="#fbef45">
+        <VerticalTimeline lineColor="#ee3838">
           <VerticalTimelineElement
             className="vertical-timeline-element--education"
-            contentStyle={{ background: "rgb(60,100,200)" }}
+            contentStyle={{ background: "rgb(12, 187, 226)" }}
             date="2015-2020"
-            iconStyle={{ background: "#fbef45", color: "#000" }}
+            iconStyle={{ background: "rgb(12, 187, 226)", color: "#000" }}
             icon={<SchoolIcon />}
           >
             <h3 className="vertical-timeline-element-title">
@@ -49,8 +49,9 @@ const Education = () => {
           <VerticalTimelineElement
             className="vertical-timeline-element--education"
             date="August-November 2020"
-            contentStyle={{ background: "#ee3838" }}
-            iconStyle={{ background: "#ee3838", color: "#000" }}
+            dateClassName="coloree"
+            contentStyle={{ background: "#f2e85a", color: "#000" }}
+            iconStyle={{ background: "#f2e85a", color: "#000" }}
             icon={<WorkIcon />}
           >
             <h3 className="vertical-timeline-element-title">
@@ -65,8 +66,9 @@ const Education = () => {
           <VerticalTimelineElement
             className="vertical-timeline-element--education"
             date="2019-2020"
-            contentStyle={{ background: "#ee3838" }}
-            iconStyle={{ background: "#ee3838", color: "#000" }}
+            dateClassName="coloree"
+            contentStyle={{ background: "#f2e85a", color: "#000" }}
+            iconStyle={{ background: "#f2e85a", color: "#000" }}
             icon={<WorkIcon />}
           >
             <h3 className="vertical-timeline-element-title">
@@ -83,8 +85,8 @@ const Education = () => {
           <VerticalTimelineElement
             className="vertical-timeline-element--education"
             date="2020-2022"
-            contentStyle={{ background: "rgb(60,100,200)" }}
-            iconStyle={{ background: "#fbef45", color: "#000" }}
+            contentStyle={{ background: "rgb(12, 187, 226)" }}
+            iconStyle={{ background: "rgb(12, 187, 226)", color: "#000" }}
             icon={<SchoolIcon />}
           >
             <h3 className="vertical-timeline-element-title">
