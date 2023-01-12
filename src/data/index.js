@@ -91,6 +91,7 @@ export const projects = [
     pic: taskManagerPic,
     tech: [postgresqlLogo, reactLogo, expressLogo, nodePic],
     alt: "PERNapp",
+    link: "https://github.com/leonyi4/no-do-list",
   },
   {
     title: "food order system",
@@ -99,5 +100,6 @@ export const projects = [
     pic: orderSystem,
     tech: [javaPng, javafxPng, sceneBuilderLogo],
     alt: "javaApp",
+    link: "https://github.com/leonyi4/funPizzaShop",
   },
 ];

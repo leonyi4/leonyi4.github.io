@@ -1,6 +1,7 @@
 import {
   Button,
   Card,
+  CardActionArea,
   CardContent,
   CardMedia,
   Typography,
@@ -43,6 +44,8 @@ const Project = (props) => {
       />
       <CardContent
         sx={{
+          p: 0,
+          "&:last-child": { pb: "5px" },
           m: 0.5,
           px: 0.5,
           pt: 0.5,
@@ -90,20 +93,23 @@ const Project = (props) => {
             />
           ))}
         </div>
-        <Button
-          variant="contained"
-          size="small"
-          sx={{
-            marginTop: "10px",
-            display: "flex",
-            fontFamily: ["Roboto Mono, monospace"],
-            "@media (max-width:600px)": {
-              fontSize: "6px",
-            },
-          }}
-        >
-          More information
-        </Button>
+        <CardActionArea>
+          <Button
+            onClick={(e) => window.open(props.project.link)}
+            variant="contained"
+            size="small"
+            sx={{
+              marginTop: "10px",
+              display: "flex",
+              fontFamily: ["Roboto Mono, monospace"],
+              "@media (max-width:600px)": {
+                fontSize: "6px",
+              },
+            }}
+          >
+            More information
+          </Button>
+        </CardActionArea>
       </CardContent>
     </Card>
   );
