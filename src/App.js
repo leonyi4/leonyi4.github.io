@@ -1,4 +1,5 @@
 import React from "react";
+import "./App.css";
 import About from "./components/aboutme/About";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
@@ -11,14 +12,17 @@ import Timeline from "./components/timeline/Timeline";
 const App = () => {
   return (
     <div>
-      <Home />
       <Nav />
-      <About />
-      <Skills />
-      <Timeline />
-      <Projects />
-      <Contact />
-      <Footer />
+      <div className="not_home">
+        <Home />
+
+        <About />
+        <Skills />
+        <Timeline />
+        <Projects />
+        <Contact />
+        <Footer />
+      </div>
     </div>
   );
 };

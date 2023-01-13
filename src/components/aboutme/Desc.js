@@ -26,6 +26,11 @@ const Desc = () => {
           textAlign: "center",
           textShadow: "2px 2px 2px black",
           lineHeight: "24px",
+          "@media (max-width:374px)": {
+            maxWidth: "250px",
+            fontSize: "8px",
+            lineHeight: "20px",
+          },
         }}
       >
         Hello! I am Nyi Nyein Aung but you can also call me Leo. I am 18 years

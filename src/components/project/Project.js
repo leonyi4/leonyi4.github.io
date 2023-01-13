@@ -27,6 +27,9 @@ const Project = (props) => {
         "@media (max-width:600px)": {
           width: "300px",
         },
+        "@media (max-width:374px)": {
+          width: "250px",
+        },
 
         textAlign: "center",
         background: "transparent",
@@ -75,6 +78,7 @@ const Project = (props) => {
             "@media (max-width:600px)": {
               fontSize: "10px",
             },
+
             color: "white",
             background: "rgba(00, 100, 255, 0.6)",
             textShadow: "2px 2px 2px black",

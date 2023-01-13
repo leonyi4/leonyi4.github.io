@@ -82,7 +82,7 @@ const Home = () => {
             sx={{
               maxWidth: "600px",
               margin: "auto",
-              textAlign: "center",
+              alignContent: "center",
               textShadow: " 2px 2px 2px black",
             }}
           >

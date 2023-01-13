@@ -1,11 +1,11 @@
 .aboutme__container {
   padding-top: 7rem;
-  margin-top: 1;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 .bg__about {
-  background-image: url(../../assets/background-4.png);
-  background-size: 12500px 1000px;
   height: fit-content;
+  padding-bottom: 2rem;
 }
 .title_about {
   text-align: center;
