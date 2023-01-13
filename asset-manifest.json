@@ -1,14 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.45a0a5ad.css",
-    "main.js": "/static/js/main.1df2dfc7.js",
+    "main.css": "/static/css/main.b2529f90.css",
+    "main.js": "/static/js/main.23c0d7a0.js",
     "static/media/cool-cat.png": "/static/media/cool-cat.2bdaaddcca7775d0e5dc.png",
-    "static/media/background-4.png": "/static/media/background-4.9e1678de843dbbfe8f5b.png",
-    "static/media/background-1.png": "/static/media/background-1.5afe191332913a9c9757.png",
-    "static/media/background-6.png": "/static/media/background-6.6cc306df98b170b4ba06.png",
-    "static/media/background-5.png": "/static/media/background-5.3187e6ced297ecaa5d16.png",
-    "static/media/background-3.png": "/static/media/background-3.b0db8c1768366266b208.png",
-    "static/media/background-7.png": "/static/media/background-7.db6b08f828c2ebb6bfc2.png",
     "static/media/postgresql.png": "/static/media/postgresql.1b904635aedb7c19150d.png",
     "static/media/reactLogo.png": "/static/media/reactLogo.4e364ba2cd5979c06b0e.png",
     "static/media/NyiNyeinAungResume2023.pdf": "/static/media/NyiNyeinAungResume2023.1cd3153fe8b3d560ec43.pdf",
@@ -26,11 +20,11 @@
     "static/media/css.png": "/static/media/css.2c5e1ee97aa3173c713e.png",
     "static/media/react.png": "/static/media/react.ef20e673b9282f8f30fd.png",
     "index.html": "/index.html",
-    "main.45a0a5ad.css.map": "/static/css/main.45a0a5ad.css.map",
-    "main.1df2dfc7.js.map": "/static/js/main.1df2dfc7.js.map"
+    "main.b2529f90.css.map": "/static/css/main.b2529f90.css.map",
+    "main.23c0d7a0.js.map": "/static/js/main.23c0d7a0.js.map"
   },
   "entrypoints": [
-    "static/css/main.45a0a5ad.css",
-    "static/js/main.1df2dfc7.js"
+    "static/css/main.b2529f90.css",
+    "static/js/main.23c0d7a0.js"
   ]
 }
