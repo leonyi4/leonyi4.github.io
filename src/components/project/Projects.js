@@ -32,7 +32,13 @@ const Projects = () => {
           My Projects
         </Typography>
 
-        <Container sx={{ maxWidth: "800px", margin: "auto" }}>
+        <Container
+          sx={{
+            maxWidth: "800px",
+
+            margin: "auto",
+          }}
+        >
           {projects.map((project, index) => (
             <Project key={project.title + index} project={project} />
           ))}

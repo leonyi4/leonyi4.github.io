@@ -21,6 +21,9 @@ const Project = (props) => {
       ref={ref}
       sx={{
         width: "700px",
+        "@media (max-width:1920px)": {
+          width: "1000px",
+        },
         "@media (max-width:1024px)": {
           width: "500px",
         },
