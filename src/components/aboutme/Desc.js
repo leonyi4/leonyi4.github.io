@@ -7,6 +7,11 @@ const Desc = () => {
 
   theme.typography.body2 = {
     fontSize: "18px",
+    "@media (min-width:1536px)": {
+      fontSize: "28px",
+      maxWidth: "630px",
+      lineHeight: "32px",
+    },
     "@media (max-width:600px)": {
       fontSize: "12px",
       width: "300px",
@@ -26,6 +31,7 @@ const Desc = () => {
           textAlign: "center",
           textShadow: "2px 2px 2px black",
           lineHeight: "24px",
+
           "@media (max-width:374px)": {
             maxWidth: "250px",
             fontSize: "8px",
@@ -33,19 +39,17 @@ const Desc = () => {
           },
         }}
       >
-        Hello! I am Nyi Nyein Aung but you can also call me Leo. I am 18 years
-        and am currently a 3rd-year university student studying IT at Payap
-        University International College. I have always enjoyed learning
-        Javascript and making random games in my Computer Science class back in
-        high school. Then a year after I joined the university, I started
-        learning web development.
+        Hello! I am Nyi Nyein Aung and you can also call me Leo. I am a 3rd-year
+        student studying Information Technology at Payap University
+        International College. I have always enjoyed learning Javascript and
+        making fun apps in my Computer Science class back in high school. I
+        started learning how to make web applications after joining university.
         <br />
-        <br />I enjoy playing games during my free time and love solving
-        problems. I usually would self-study frontend after I get home from
-        university in the evening and play games with my friends at night. I am
-        also very interested in technology in general and try my best to keep up
-        with the updates. I really enjoy web development and I hope to improve
-        my skills as I go on my learning journey.
+        <br />I love to learn new things and enjoy talking to my friends about
+        new projects we are working on. I am also very interested in technology
+        in general and try my best to keep up with the updates. I really enjoy
+        making web applications and I hope to improve my skills as I go on my
+        learning journey.
       </Typography>
     </ThemeProvider>
   );

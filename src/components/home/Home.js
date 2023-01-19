@@ -28,7 +28,7 @@ const Home = () => {
       fontSize: "3rem",
     },
     [theme.breakpoints.up("md")]: {
-      fontSize: "5rem",
+      fontSize: "4.5rem",
     },
   };
 
@@ -86,7 +86,8 @@ const Home = () => {
               textShadow: " 2px 2px 2px black",
             }}
           >
-            I am a 3rd year IT student and I am looking for internships
+            I am a third year student studying Information Technology and I am
+            aspiring to be a software engineer
           </Typography>{" "}
           <ContactMe />
           <div className="cool">

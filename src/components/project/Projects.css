@@ -35,3 +35,10 @@
     width: 40px;
   }
 }
+
+@media screen and (min-width: 1921px) {
+  .logo {
+    width: 120px;
+    max-height: 100px;
+  }
+}

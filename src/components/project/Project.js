@@ -21,13 +21,19 @@ const Project = (props) => {
       ref={ref}
       sx={{
         width: "700px",
+        "@media (min-width:1921px)": {
+          width: "1200px",
+        },
         "@media (max-width:1920px)": {
           width: "1000px",
         },
-        "@media (max-width:1024px)": {
-          width: "500px",
+        "@media (max-width:1200px)": {
+          width: "750px",
         },
-        "@media (max-width:600px)": {
+        "@media (max-width:1024px)": {
+          width: "600px",
+        },
+        "@media (max-width:650px)": {
           width: "300px",
         },
         "@media (max-width:374px)": {
@@ -63,25 +69,32 @@ const Project = (props) => {
         <Typography
           variant="h5"
           sx={{
+            "@media (min-width:1921px)": {
+              fontSize: "46px",
+            },
             "@media (max-width:600px)": {
-              fontSize: "20px",
+              fontSize: "24px",
             },
             fontWeight: 500,
             background: "rgba(255, 20, 10, 0.6)",
             textShadow: "2px 2px 2px black",
             color: "white",
+            fontSize: "30px",
             fontFamily: ["Roboto Mono, monospace"],
           }}
         >
-          {props.project.title}
+          {props.project.title} - {props.project.type}
         </Typography>
         <Typography
           variant="subtitle1"
           sx={{
+            "@media (min-width:1921px)": {
+              fontSize: "24px",
+            },
             "@media (max-width:600px)": {
               fontSize: "10px",
             },
-
+            fontSize: "18px",
             color: "white",
             background: "rgba(00, 100, 255, 0.6)",
             textShadow: "2px 2px 2px black",
@@ -109,6 +122,9 @@ const Project = (props) => {
               marginTop: "10px",
               display: "flex",
               fontFamily: ["Roboto Mono, monospace"],
+              "@media (min-width:1921px)": {
+                fontSize: "20px",
+              },
               "@media (max-width:600px)": {
                 fontSize: "6px",
               },

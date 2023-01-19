@@ -86,7 +86,7 @@ export const skills = [
 export const projects = [
   {
     title: "Task Manager",
-    type: "Full PERN stack web application",
+    type: "PERN stack web application",
     desc: "A full stack web application where the user can store tasks they have to complete or things they want to do in a postgresql database. The website lists them based on the priority and allows the user to edit any tasks.",
     pic: taskManagerPic,
     tech: [postgresqlLogo, reactLogo, expressLogo, nodePic],
@@ -95,7 +95,7 @@ export const projects = [
   },
   {
     title: "food order system",
-    type: "javafx GUI application",
+    type: "Javafx GUI application",
     desc: "This is a gui application where a customer can order from a pizza restaurant written in javaFX using scene builder. The user can order a variety of items with varying amounts. A coupon is given as a discount based on how much each order costs. A sales txt file containing the receipt and a summary txt file contianing all the inputs from every order is created after each sale",
     pic: orderSystem,
     tech: [javaPng, javafxPng, sceneBuilderLogo],
