@@ -18,21 +18,38 @@ const Home = () => {
     "@media (min-width:600px)": {
       fontSize: "1.5rem",
     },
+    "@media (min-width:1920px)": {
+      fontSize: "4rem",
+    },
     [theme.breakpoints.up("md")]: {
       fontSize: "2rem",
+    },
+    [theme.breakpoints.up("lg")]: {
+      fontSize: "3rem",
     },
   };
   theme.typography.h1 = {
     fontSize: "2rem",
+
     "@media (min-width:600px)": {
       fontSize: "3rem",
     },
     [theme.breakpoints.up("md")]: {
       fontSize: "4.5rem",
     },
+    [theme.breakpoints.up("xl")]: {
+      fontSize: "6rem",
+    },
+    "@media (min-width:1920px)": {
+      fontSize: "8rem",
+    },
   };
 
   theme.typography.subtitle1 = {
+    "@media (min-width:1920px)": {
+      maxWidth: "850px",
+      fontSize: "24px ",
+    },
     "@media (max-width:900px)": {
       maxWidth: "300px",
     },
