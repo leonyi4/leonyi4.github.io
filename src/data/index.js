@@ -96,7 +96,7 @@ export const projects = [
   {
     title: "food order system",
     type: "Javafx GUI application",
-    desc: "This is a gui application where a customer can order from a pizza restaurant written in javaFX using scene builder. The user can order a variety of items with varying amounts. A coupon is given as a discount based on how much each order costs. A sales txt file containing the receipt and a summary txt file contianing all the inputs from every order is created after each sale",
+    desc: "This is a gui application where a customer can order from a pizza restaurant written in javaFX using scene builder. The user can order a variety of items with varying amounts. A coupon is given as a discount based on how much each order costs. A sales txt file containing the receipt and a summary txt file contianing all the inputs from every order is created after each sale.",
     pic: orderSystem,
     tech: [javaPng, javafxPng, sceneBuilderLogo],
     alt: "javaApp",
