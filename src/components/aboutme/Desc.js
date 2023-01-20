@@ -7,7 +7,7 @@ const Desc = () => {
 
   theme.typography.body2 = {
     fontSize: "18px",
-    "@media (min-width:1537px)": {
+    "@media (min-width:1920px)": {
       fontSize: "28px",
       maxWidth: "630px",
       lineHeight: "32px",
