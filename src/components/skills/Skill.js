@@ -14,9 +14,9 @@ const Skill = (props) => {
       <Card className={cName}>
         <CardMedia
           component="img"
-          height="155"
           src={props.pic}
           alt={props.alt}
+          sx={{ margin: "0 auto", height: "250px" }}
         />
         <CardContent>
           <Typography

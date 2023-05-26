@@ -29,22 +29,40 @@ const Education = () => {
             My Timeline
           </Typography>
         </div>
-
         <VerticalTimeline lineColor="#ee3838">
           <VerticalTimelineElement
             className="vertical-timeline-element--education"
+            date="February 2023- Present"
+            dateClassName="coloree"
+            contentStyle={{ background: "#f2e85a", color: "#000" }}
+            iconStyle={{ background: "#f2e85a", color: "#000" }}
+            icon={<WorkIcon />}
+          >
+            <h3 className="vertical-timeline-element-title">
+              Research Assistant - Department of Information, Technology Payap
+              University
+            </h3>
+            <p>
+              - Created maching learning models for data analysis using MATLAB
+              and WEKA
+              <br />- Performed neuro signal processing on EEG datasets to
+              analyse ERPs using MATLAB
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--education"
+            date="2020-2022"
             contentStyle={{ background: "rgb(12, 187, 226)" }}
-            date="2015-2020"
             iconStyle={{ background: "rgb(12, 187, 226)", color: "#000" }}
             icon={<SchoolIcon />}
           >
             <h3 className="vertical-timeline-element-title">
-              Varee Chiang Mai International School
+              Payap university International College
             </h3>
-            <h4 className="vertical-timeline-element-description">
+            <h4 className="vertical-timeline-element-subtitle">
               Chiang Mai Thailand
             </h4>
-            <p>Highschool Diploma</p>
+            <p>Bachelors of Science in Information Technology</p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--education"
@@ -63,6 +81,7 @@ const Education = () => {
               <br />- designed 2D model for elderly nursing care house
             </p>
           </VerticalTimelineElement>
+
           <VerticalTimelineElement
             className="vertical-timeline-element--education"
             date="2019-2020"
@@ -77,25 +96,22 @@ const Education = () => {
             <h4 className="vertical-timeline-element-description">
               Chiang Mai Thailand
             </h4>
-            <p>
-              Acted as the teacher's assistant for Highschool Computer Science
-              classes
-            </p>
+            <p>Teacher's assistant for Highschool Computer Science classes</p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--education"
-            date="2020-2022"
             contentStyle={{ background: "rgb(12, 187, 226)" }}
+            date="2015-2020"
             iconStyle={{ background: "rgb(12, 187, 226)", color: "#000" }}
             icon={<SchoolIcon />}
           >
             <h3 className="vertical-timeline-element-title">
-              Payap university International College
+              Varee Chiang Mai International School
             </h3>
-            <h4 className="vertical-timeline-element-subtitle">
+            <h4 className="vertical-timeline-element-description">
               Chiang Mai Thailand
             </h4>
-            <p>Bachelors of Science in Information Technology</p>
+            <p>Highschool Diploma</p>
           </VerticalTimelineElement>
         </VerticalTimeline>
       </div>

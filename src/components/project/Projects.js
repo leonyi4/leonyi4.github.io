@@ -31,11 +31,9 @@ const Projects = () => {
         >
           My Projects
         </Typography>
-
         <Container
           sx={{
-            maxWidth: "800px",
-
+            maxWidth: "700px",
             margin: "auto",
           }}
         >

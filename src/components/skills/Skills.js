@@ -31,7 +31,7 @@ const Skills = () => {
             My Skills
           </Typography>
         </div>
-        <Grid container spacing={2}>
+        <Grid container spacing={1}>
           {skills.map((project, index) => (
             <Skill
               key={project.name + index}

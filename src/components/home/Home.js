@@ -103,8 +103,7 @@ const Home = () => {
               textShadow: " 2px 2px 2px black",
             }}
           >
-            I am a third year student studying Information Technology and I am
-            aspiring to be a software engineer
+            I am aspiring an a data scientist
           </Typography>{" "}
           <ContactMe />
           <div className="cool">

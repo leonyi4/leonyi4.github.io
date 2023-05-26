@@ -28,21 +28,22 @@ footer a {
 .footer_socials {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin-bottom: 4rem;
 }
 
-.footer__socials a {
+.footer__socials {
   background: var(--color-bg-variant);
   color: var(--color-white);
   padding: 0.6rem;
   border-radius: 0.6rem;
   display: flex;
   width: 45px;
-  margin: auto;
+  margin: 5px;
   border: 1px solid transparent;
 }
 
-.footer__socials a:hover {
+.footer__socials :hover {
   background: transparent;
   color: var(--color-bg-variant);
   border-color: var(--color-bg-variant);

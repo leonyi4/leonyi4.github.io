@@ -7,7 +7,6 @@ header {
 .name {
   background: #ff2a11;
   background: linear-gradient(to right, #ff2a11 9%, #ff9c38 53%, #bdad19 79%);
-  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .header__container {

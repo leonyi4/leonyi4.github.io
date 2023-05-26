@@ -20,18 +20,17 @@ const Project = (props) => {
       className={ani}
       ref={ref}
       sx={{
-        width: "700px",
         "@media (min-width:1921px)": {
-          width: "1200px",
+          width: "900px",
         },
         "@media (max-width:1920px)": {
-          width: "1000px",
+          width: "700px",
         },
         "@media (max-width:1200px)": {
-          width: "750px",
+          width: "500px",
         },
         "@media (max-width:1024px)": {
-          width: "600px",
+          width: "500px",
         },
         "@media (max-width:650px)": {
           width: "300px",
@@ -49,11 +48,6 @@ const Project = (props) => {
         marginBottom: "15px",
       }}
     >
-      <CardMedia
-        component="img"
-        src={props.project.pic}
-        sx={{ objectFit: "contain", padding: 0.5, borderRadius: 2 }}
-      />
       <CardContent
         sx={{
           p: 0,
@@ -70,10 +64,10 @@ const Project = (props) => {
           variant="h5"
           sx={{
             "@media (min-width:1921px)": {
-              fontSize: "46px",
+              fontSize: "35px",
             },
-            "@media (max-width:600px)": {
-              fontSize: "24px",
+            "@media (max-width:650px)": {
+              fontSize: "20px",
             },
             fontWeight: 500,
             background: "rgba(255, 20, 10, 0.6)",
@@ -85,13 +79,18 @@ const Project = (props) => {
         >
           {props.project.title} - {props.project.type}
         </Typography>
+        <CardMedia
+          component="img"
+          src={props.project.pic}
+          sx={{ objectFit: "contain", padding: 0.5, borderRadius: 2 }}
+        />
         <Typography
           variant="subtitle1"
           sx={{
             "@media (min-width:1921px)": {
               fontSize: "24px",
             },
-            "@media (max-width:600px)": {
+            "@media (max-width:650px)": {
               fontSize: "10px",
             },
             fontSize: "18px",
@@ -113,7 +112,7 @@ const Project = (props) => {
             />
           ))}
         </div>
-        <CardActionArea>
+        <CardActionArea sx={{ width: "fit-content" }}>
           <Button
             onClick={(e) => window.open(props.project.link)}
             variant="contained"
@@ -125,7 +124,7 @@ const Project = (props) => {
               "@media (min-width:1921px)": {
                 fontSize: "20px",
               },
-              "@media (max-width:600px)": {
+              "@media (max-width:650px)": {
                 fontSize: "6px",
               },
             }}

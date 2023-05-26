@@ -15,7 +15,6 @@ const App = () => {
       <Nav />
       <div className="not_home">
         <Home />
-
         <About />
         <Skills />
         <Timeline />

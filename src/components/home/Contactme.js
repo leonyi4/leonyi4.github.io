@@ -1,5 +1,5 @@
 import React from "react";
-import resume from "../../assets/NyiNyeinAungResume2023.pdf";
+import resume from "../../assets/NyiNyeinAungResume26052023.pdf";
 
 const ContactMe = () => {
   return (

@@ -44,15 +44,12 @@ const Desc = () => {
       >
         Hello! I am Nyi Nyein Aung and you can also call me Leo. I am a 3rd-year
         student studying Information Technology at Payap University
-        International College. I have always enjoyed learning Javascript and
-        making fun apps in my Computer Science class back in high school. I
-        started learning how to make web applications after joining university.
+        International College.
         <br />
-        <br />I love to learn new things and enjoy talking to my friends about
-        new projects we are working on. I am also very interested in technology
-        in general and try my best to keep up with the updates. I really enjoy
-        making web applications and I hope to improve my skills as I go on my
-        learning journey.
+        <br />I love to learn new things and . I am also very interested in
+        technology in general and try my best to keep up with the updates. I
+        enjoy making Machine learning models to find insights from data and I
+        hope to improve my skills as I go on my learning journey.
       </Typography>
     </ThemeProvider>
   );
