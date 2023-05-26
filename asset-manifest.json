@@ -1,30 +1,41 @@
 {
   "files": {
-    "main.css": "/static/css/main.71099b59.css",
-    "main.js": "/static/js/main.98594f4a.js",
+    "main.css": "/static/css/main.83ae3eef.css",
+    "main.js": "/static/js/main.eb5c2cd7.js",
     "static/media/cool-cat.png": "/static/media/cool-cat.2bdaaddcca7775d0e5dc.png",
     "static/media/postgresql.png": "/static/media/postgresql.1b904635aedb7c19150d.png",
     "static/media/reactLogo.png": "/static/media/reactLogo.4e364ba2cd5979c06b0e.png",
-    "static/media/NyiNyeinAungResume2023.pdf": "/static/media/NyiNyeinAungResume2023.1cd3153fe8b3d560ec43.pdf",
+    "static/media/NyiNyeinAungResume26052023.pdf": "/static/media/NyiNyeinAungResume26052023.122deca870be1628431d.pdf",
+    "static/media/python.png": "/static/media/python.dea924d737bb84eb9ce3.png",
+    "static/media/phpPng.png": "/static/media/phpPng.502c1a901665a0453b5c.png",
+    "static/media/aqi category.jpg": "/static/media/aqi category.81c20de64008baf5f1d1.jpg",
+    "static/media/webForum.jpg": "/static/media/webForum.a1abc71f6f2b7f926e17.jpg",
+    "static/media/video game prediction.jpg": "/static/media/video game prediction.fe85b5c4f0a1c5c6c601.jpg",
+    "static/media/html.png": "/static/media/html.c4d9c8dcdf4078875355.png",
     "static/media/SceneBuilderPic.png": "/static/media/SceneBuilderPic.632abf56a506d530a503.png",
-    "static/media/node.png": "/static/media/node.c2e22c634a7336cbe298.png",
+    "static/media/numpy.png": "/static/media/numpy.30558498bbc115554b6e.png",
+    "static/media/sklearn2.png": "/static/media/sklearn2.badd957ac15b0c4bf695.png",
+    "static/media/css.png": "/static/media/css.8a182087615a3845ebac.png",
+    "static/media/pandas.png": "/static/media/pandas.c6033746576eeae58df4.png",
     "static/media/javafxPng.png": "/static/media/javafxPng.31b392db0c9e102a6b86.png",
+    "static/media/seaborn.png": "/static/media/seaborn.848eb2ab699ebae28749.png",
     "static/media/javaPng.png": "/static/media/javaPng.6c1a3b5f7e2d535bff5b.png",
+    "static/media/node.png": "/static/media/node.80c15dd0bfe93afd8167.png",
     "static/media/order_system.png": "/static/media/order_system.7e80da25027f156eb2fc.png",
+    "static/media/mySql.png": "/static/media/mySql.2f2132d4838335ce808e.png",
     "static/media/vsc.jpg": "/static/media/vsc.7312feb25c94fda2f4a0.jpg",
     "static/media/javascript.png": "/static/media/javascript.7f8751632b42a9932c15.png",
     "static/media/java.jpg": "/static/media/java.4757c6d12d4f0245d07c.jpg",
     "static/media/taskmanager.png": "/static/media/taskmanager.9f47f29f0035f16b7eac.png",
     "static/media/github.png": "/static/media/github.7c8f7736007664c4b0ba.png",
-    "static/media/materialUI.png": "/static/media/materialUI.5b2d8a0a309d9f7d47c1.png",
-    "static/media/css.png": "/static/media/css.2c5e1ee97aa3173c713e.png",
+    "static/media/jnote.png": "/static/media/jnote.a61c9648fcd141eed3aa.png",
     "static/media/react.png": "/static/media/react.ef20e673b9282f8f30fd.png",
     "index.html": "/index.html",
-    "main.71099b59.css.map": "/static/css/main.71099b59.css.map",
-    "main.98594f4a.js.map": "/static/js/main.98594f4a.js.map"
+    "main.83ae3eef.css.map": "/static/css/main.83ae3eef.css.map",
+    "main.eb5c2cd7.js.map": "/static/js/main.eb5c2cd7.js.map"
   },
   "entrypoints": [
-    "static/css/main.71099b59.css",
-    "static/js/main.98594f4a.js"
+    "static/css/main.83ae3eef.css",
+    "static/js/main.eb5c2cd7.js"
   ]
 }
