@@ -5,7 +5,7 @@ import Contact from "./Contact/Contact.jsx";
 import Layout from "./Layout.jsx";
 import About from "./components/About/About.jsx";
 import Home from "./components/Home/Home.jsx";
-import Projects from "./components/Projects/Projects.jsx";
+import Work from "./components/Work/Work.jsx";
 import "./index.css";
 
 import {
@@ -18,9 +18,9 @@ import {
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Layout />}>
-      <Route path="home" element={<Home />} />
+      <Route path="" element={<Home />} />
       <Route path="about" element={<About />} />
-      <Route path="projects" element={<Projects />} />
+      <Route path="work" element={<Work />} />
       <Route path="contact" element={<Contact />} />
     </Route>
   )

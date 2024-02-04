@@ -4,26 +4,6 @@ import { Link, NavLink } from "react-router-dom";
 const Nav = () => {
   return (
     <>
-      <nav className="w-full flex p-4 justify-between items-center mx-auto max-w-screen-xl">
-        <div className="">Leo</div>
-        <ul className="flex ">
-          <li>
-            <Link to={"home"}>Home</Link>
-          </li>
-          <li>
-            <Link to={"about"}>About</Link>
-          </li>
-          <li>
-            <Link to={"projects"}>Projects</Link>
-          </li>
-          <li>
-            <Link to={"contact"}>Contact</Link>
-          </li>
-          <li>
-            <button>Resume</button>
-          </li>
-        </ul>
-      </nav>
       <nav className="bg-white border-gray-200 px-4 lg:px-6 py-2.5">
         <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
           <Link to="/" className="flex items-center">
@@ -78,7 +58,7 @@ const Nav = () => {
               </li>
               <li>
                 <NavLink
-                  to="/projects"
+                  to="/work"
                   className={({ isActive }) =>
                     `block py-2 pr-4 pl-3 duration-200 border-b border-gray-100 
                                         ${
@@ -88,7 +68,7 @@ const Nav = () => {
                                         } lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
                   }
                 >
-                  Projects
+                  Work
                 </NavLink>
               </li>
               <li>
