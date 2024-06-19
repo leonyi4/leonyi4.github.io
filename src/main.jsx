@@ -3,9 +3,7 @@ import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 import Contact from "./Contact/Contact.jsx";
 import Layout from "./Layout.jsx";
-import About from "./components/About/About.jsx";
 import Home from "./components/Home/Home.jsx";
-import Work from "./components/Work/Work.jsx";
 import "./index.css";
 
 import {
@@ -14,13 +12,15 @@ import {
   createBrowserRouter,
   createRoutesFromElements,
 } from "react-router-dom";
+import Projects from "./components/Projects/Projects.jsx";
+import Publications from "./components/Publications/Publications.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Layout />}>
       <Route path="" element={<Home />} />
-      <Route path="about" element={<About />} />
-      <Route path="work" element={<Work />} />
+      <Route path="projects" element={<Projects />} />
+      <Route path="publications" element={<Publications />} />
       <Route path="contact" element={<Contact />} />
     </Route>
   )
